@@ -11,12 +11,13 @@ int main(void){
 
   int matSize = 32;
   int xi = 0;
-  int yi = 20;
+  int yu = 20;
   int xHold = 0;
   int yHold = 0;
   int i, j, input, rowShift;
   int currentMat[32][32]; //This holds stored blocks
   int newMat[32][32]; //This holds the current block that the user is controlling
+  int demo = 1;
 
   // ******* Initializing the Terminal Window *********
   initscr();
